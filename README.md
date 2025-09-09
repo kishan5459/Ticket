@@ -1,16 +1,38 @@
-# ticket_app
+# Ticket App 🎟️
 
-A new Flutter project.
+A modern Flutter application to view and manage flight tickets, featuring a clean interface and real ticket visualization.
 
-## Getting Started
+## Features ✈️
 
-This project is a starting point for a Flutter application.
+- List and view all flight tickets
+- Detailed ticket view with:
+  - Departure and arrival locations/codes
+  - Flight duration and date
+  - Passenger and passport information
+  - Booking code and E-ticket number
+  - Payment method and price
+  - Barcode representation for ticket validation
+- Tabs for "Upcoming" and "Previous" tickets
+- Smooth navigation between ticket list and ticket detail screens
+- Customizable and responsive UI widgets
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots & Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+All screenshots and demo videos are shared in the Google Drive link below:  
+[Demo Link](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+- `lib/screens/` – Main UI screens (home, ticket, search, etc.)
+- `lib/base/widgets/` – Custom widgets for tickets and layouts
+- `lib/base/resources/` – Styles and media resources
+- `lib/main.dart` – Entry point of the Flutter app
+
+## Technologies Used 🛠️
+
+- [Flutter](https://flutter.dev/) (UI framework)
+- [Dart](https://dart.dev/) (Programming language)
+- [barcode_widget](https://pub.dev/packages/barcode_widget) (Barcode generation)
+- [GetX](https://pub.dev/packages/get) (Navigation and state management)
+
+<p align="left" style="font-size:small"><i>[public version of <code>flutter_projects/ticket_app</code>]</i></p>
