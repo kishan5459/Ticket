@@ -1,0 +1,17 @@
+NOTE - 1
+
+if we have to make that all 3 element of the row should be left middle and right 
+then first and last should have same size as like below example
+aaa aaaaaaaaaaa aaa 
+aa aaaaaaaaaaa aaaa
+
+===============================
+
+          onTap: (){
+            Navigator.push(
+              context, 
+              MaterialPageRoute(
+                builder: (BuildContext context) => const AllTickets(),
+              ),
+            );
+          },

@@ -1,0 +1,1 @@
+flutter pub add flutterui_icon && flutter pub get
